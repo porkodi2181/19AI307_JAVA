@@ -20,31 +20,56 @@
 -	b) Call `emp.disp(101)` to display the employee details
 5.	End
 
-
-
-
-
-
 ## PROGRAM:
  ```
-/*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  PORKODI B
+RegisterNumber:  212224240114
 ```
 
 ## Sourcecode.java:
 
+```
+class Name
+{
+    String Fname;
+    String Mname;
+    String Lname;
+    void dispName(String fn,String mn,String ln)
+    {
+        Fname=fn;
+        Mname=mn;
+        Lname=ln;
+        System.out.println(Fname+" "+Mname+" "+Lname);
+    }
+}
+class Employee
+{
+    int Emp_Id;
+    Name obj=new Name();
+    void dispName(int id,String fn,String mn,String ln)
+    {
+        Emp_Id=id;
+        System.out.println(Emp_Id);
+        obj.dispName(fn,mn,ln);
+    }
+    
+}
 
-
-
-
-
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Employee e1=new Employee();
+      e1.dispName(101,"B","Leo","John");
+        
+    }
+}
+```
 
 ## OUTPUT:
 
-
+<img width="500" height="182" alt="647617943-1ae1bb4e-65b0-4115-85b9-dc04612d0ec7" src="https://github.com/user-attachments/assets/dbc00212-eba8-44fc-8df7-f149413d1ffa" />
 
 ## RESULT:
 Thus, the java program to perform final & static keyword was executed successfully.
