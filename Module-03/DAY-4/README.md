@@ -1,3 +1,4 @@
+
 # Ex.No:3(D) STRING TOKENIZER IN JAVA
 
 ## AIM:
@@ -19,24 +20,30 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:   PORKODI B
+RegisterNumber:   212224240114
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class GFG {
+	public static void main(String[] args)
+	{
+	    Scanner sc=new Scanner(System.in);
+		String str = sc.nextLine();
+		String[] split = str.split(" ");
+		for (int i = 0; i < split.length; i++)
+			System.out.println(split[i]);
+	}
+}
+```
 
 ## OUTPUT:
 
-
+<img width="716" height="532" alt="437523706-75834d6e-4726-4fab-a784-700c00296ddc" src="https://github.com/user-attachments/assets/b8f67868-f489-4f71-9892-7525d65a1c52" />
 
 ## RESULT:
 Thus the java program using StringTokenizer class that tokenizes a string "My name is Java Programming" on the basis of whitespace was executed successfully.
