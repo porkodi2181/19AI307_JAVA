@@ -4,7 +4,7 @@ To write a parameterized constructor in the Employee class that initializes name
 
 ## ALGORITHM :
 
-	1.	Start the program.
+1.	Start the program.
 2.	Define a class Employee:
     a.	  Declare two private string variables: name and designation.
 3.	Create a parameterized constructor in Employee:
@@ -24,28 +24,44 @@ To write a parameterized constructor in the Employee class that initializes name
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:   PORKODI B
+RegisterNumber:  212224240114
+
 ```
 
 ## Sourcecode.java:
 
+```
+public class Employee {
+    
+    private String name;
+    private int age;
+    private String designation;
 
+    public Employee() {
+        
+        this.name = "Robert";
+        this.age = 35;
+        this.designation = "Senior Developer";
+}
+    public void displayDetails() {
+        System.out.println("Name is:" + name);
+        System.out.println("Age is:" + age);
+        System.out.println("Designation is:" + designation);
+    }
 
-
-
-
+    public static void main(String[] args) {
+        Employee employee = new Employee();
+        employee.displayDetails();
+    }
+}
+```
 
 ## OUTPUT:
 
+<img width="715" height="197" alt="439321305-2095eda4-14fe-4297-8b96-d87ce4e6cde1" src="https://github.com/user-attachments/assets/d7cf1ca2-a51b-4d9d-999a-d885c4f12458" />
 
 
 ## RESULT:
 Thus, the  java program was successfully demonstrates the use of a parameterized constructor to initialize class fields.
-
- 
-
-
