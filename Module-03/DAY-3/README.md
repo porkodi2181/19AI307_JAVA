@@ -14,31 +14,31 @@ To Create a java program use replace() method replaces the given String from the
 6.	Print the modified string using `sb.toString()`
 7.	End
 
-
-
-
-
-
 ## PROGRAM:
  ```
-/*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:   PORKODI B
+RegisterNumber:  212224240114
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.Scanner;
+public class StringBufferExample3{  
+public static void main(String args[]){ 
+Scanner sc=new Scanner(System.in);
+String str1=sc.nextLine();
+StringBuffer sb=new StringBuffer(str1);  
+sb.replace(1,3,"Java");  
+System.out.println(sb); 
+}  
+}
+```
 
 ## OUTPUT:
 
-
+<img width="420" height="328" alt="437522911-236ea5c1-5152-43a3-9032-02b8ae2e1831" src="https://github.com/user-attachments/assets/c1a950d5-9978-44ca-b88e-55de7a8f2f50" />
 
 ## RESULT:
 Thus the java program use replace() method replaces the given String from the specified beginIndex and endIndex and use stringbuilder was executed successfully.
